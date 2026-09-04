@@ -1,0 +1,11 @@
+BU 4x4 keypad matrisleri sistemimizde kullanırken şemaya dahil etmemiz gerektiğinde dikkat edilmesi gereken şey şudur;
+
+keypad'in arkasını açıp baktığınızda veya datasheet ine baktığınız zaman dikey ve yatay bakır yollar vardır.
+
+8 pin varsa örnek olarak 
+
+dikey pinler 1 2 3 4 pinleri ise 
+yatay pinler 5 6 7 8 pinleri ise 
+
+bunları sırasıyla arduino dijital pinlerine takıp 
+daha sonrasındada row,col(satır,sütun) şekkinde belirtmek gerekir 
